@@ -16,9 +16,6 @@ sudo ./install.sh
 ### Method 2
 Add this to your `~/.bashrc` file:
 ```
-# DIRENV
-eval "$(direnv hook bash)"
-
 show_virtual_env() {
   if [ -n "$VIRTUAL_ENV" ]; then
     echo "($(basename $VIRTUAL_ENV))"
