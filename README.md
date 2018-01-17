@@ -7,6 +7,13 @@ Utility to quickly create virtualenvs utilized by direnv
 
 ## Setup
 
+### Method 1
+Run the install script:
+```
+sudo ./install.sh
+```
+
+### Method 2
 Add this to your `~/.bashrc` file:
 ```
 # DIRENV
